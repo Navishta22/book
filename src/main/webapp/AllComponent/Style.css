@@ -1,0 +1,28 @@
+.bg-custom{
+	background-color:#9575cd;
+}
+.btn-custom{
+	
+	background-color:#d1c4e9 ;
+}
+.bt-custom{
+	
+	background-color:#5c6bc0 ;
+}
+.navbar .nav-item:hover .nav-link {
+    background-color: #d1c4e9 ;
+    color: blue;
+    border-radius: 20px;
+}
+.button-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+}
+
+.button-container .btn {
+    margin-right: 10px; /* Adds space between buttons */
+}
+
+.button-container .btn:last-child {
+    margin-right: 0; /* Removes margin from the last button */
+}
